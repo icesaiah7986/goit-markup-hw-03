@@ -172,3 +172,11 @@ body {
 .header-one {
   visibility: hidden;
 }
+
+
+
+/* start of flexbox styles */
+
+img {
+  display: block;
+}
