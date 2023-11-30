@@ -26,6 +26,14 @@ body {
   list-style: none;
 }
 
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
 
 /* Header Section */
 
@@ -70,24 +78,29 @@ body {
   color: #404bbf;
 }
 
+/* Footer Section */
 
-
-
-
-.header-two {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
+.footer {
+  background-color: var(--navy-blue);
 }
+
+.textlogo-footer {
+  color: #f4f4fd;
+}
+
+.footer-content {
+  line-height: 1.5;
+  color: var(--cloud);
+  letter-spacing: 0.02em;
+}
+
+/* Hero Image - First Section */
 
 .hero-image {
   background-color: var(--navy-blue);
 }
 
-.hero-image .header {
+.main-page-banner {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -104,35 +117,35 @@ body {
   background-color: #404bbf;
 }
 
-.button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
+/* Second Section */
 
-
-.list .button {
-  color: var(--iris);
-  background-color: var(--cloud);
-}
-
-.list .button:hover, .button:focus {
-  color: #FFFFFF;
-  background-color: #404bbf;
-
-}
-
-.header-three {
+.features-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
-
+  color: var(--navy-blue)
 }
+
+.features-content {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Third Section */
+
+.main-page-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+/* Fourth Section */
 
 .team {
   background-color: #f4f4fd;
@@ -142,37 +155,44 @@ body {
   background-color: #FFFFFF;
 }
 
-
-.footer {
-  background-color: var(--navy-blue);
-}
-
-.textlogo-footer {
-  color: #f4f4fd;
-}
-
-.goal {
-  line-height: 1.5;
-  color: var(--cloud);
+.member-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
-.text {
+.member-title {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-
 }
 
-.header-one {
-  visibility: hidden;
+/* Portfolio Main */
+
+.filters .button {
+  color: var(--iris);
+  background-color: var(--cloud);
 }
 
+.filters .button:hover, .button:focus {
+  color: #FFFFFF;
+  background-color: #404bbf;
+}
 
+.project-card-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);  
+}
 
-/* start of flexbox styles */
-
-img {
-  display: block;
+.project-card-category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
