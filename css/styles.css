@@ -62,7 +62,7 @@ img {
   text-transform: uppercase;
   }
 
-  .nav .web-logo {
+  .nav-menu .web-logo {
     margin-right: 76px;
   }
 
@@ -70,21 +70,18 @@ img {
   color: var(--navy-blue);
 }
 
-
-
-/* .nav-bar-item {
+.nav-bar-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-right: 40px;
+  color: var(--navy-blue);
   }
  
 .nav-bar-item .link:hover .link:focus {
   color: #404bbf;
-} */
-
-
+}
 
 .address {
   font-style: normal;
