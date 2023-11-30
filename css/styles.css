@@ -35,6 +35,21 @@ body {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.header {
+  border-bottom: 1px;
+  border-bottom-color: #e7e9fc;
+}
+
 /* Header Section */
 
 .web-logo {
@@ -47,6 +62,10 @@ body {
   text-transform: uppercase;
   }
 
+  .nav .web-logo {
+    margin-right: 76px;
+  }
+
 .studio-logo {
   color: var(--navy-blue);
 }
@@ -57,6 +76,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-right: 40px;
+  padding: 24px 0 24px;
+
 }
 
 .menu-nav-item .link:hover .link:focus {
@@ -65,6 +87,11 @@ body {
 
 .address {
   font-style: normal;
+}
+
+.contact {
+  display: flex;
+  margin-right: 40px;
 }
 
 .contact-item {
@@ -76,6 +103,15 @@ body {
 
 .contact-item .link:hover .link:focus {
   color: #404bbf;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu-nav {
+  display: flex;
 }
 
 /* Footer Section */
@@ -115,6 +151,10 @@ body {
 
 .hero-image .button:hover, .button:focus {
   background-color: #404bbf;
+}
+
+.main-header-container {
+  display: flex;
 }
 
 /* Second Section */
