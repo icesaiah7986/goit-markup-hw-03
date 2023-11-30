@@ -179,7 +179,29 @@ img {
 
 /* Second Section */
 
-.features-header {
+.features-section {
+  padding: 120px 0 120px;
+}
+
+.features {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+  margin-right: 24px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.features-item .features-item-header {
+  margin-bottom: 8px;
+}
+
+.features-item-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -187,12 +209,16 @@ img {
   color: var(--navy-blue)
 }
 
-.features-content {
+.features-item-content {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
+.hidden-header {
+  visibility: hidden;
+  }
 
 /* Third Section */
 
