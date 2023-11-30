@@ -122,10 +122,13 @@ img {
 
 .footer {
   background-color: var(--navy-blue);
+  }
+
+.footer-container {
   padding: 100px 0 100px;
 }
 
-.footer .link {
+.footer-container .link {
   display: inline-block;
   margin-bottom: 16px;
 }
