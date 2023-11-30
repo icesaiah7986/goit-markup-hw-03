@@ -42,7 +42,6 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 
 .header {
@@ -123,6 +122,12 @@ img {
 
 .footer {
   background-color: var(--navy-blue);
+  padding: 100px 0 100px;
+}
+
+.footer .link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .textlogo-footer {
@@ -133,6 +138,7 @@ img {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /* Hero Image - First Section */
