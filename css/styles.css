@@ -41,14 +41,14 @@ img {
 
 .container {
   width: 1158px;
-  margin: 0 auto;
 }
 
 .header {
   border-bottom: 1px;
   border-style: solid;
   border-bottom-color: #e7e9fc;
-  }
+  margin: 0 auto;
+}
 
 /* Header Section */
 
