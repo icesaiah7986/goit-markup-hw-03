@@ -42,21 +42,20 @@ img {
 
 .container {
   width: 1158px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 .header {
   border-bottom: 1px;
   border-style: solid;
   border-bottom-color: #e7e9fc;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 /* Header Section */
 
 .main-header-container {
   display: flex;
-  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -255,10 +254,10 @@ img {
   gap: 24px;
 }
 
-/* Fourth Section */
+/* Fourth Section - Our Team */
 
 .team {
-  background-color: #f4f4fd;
+  /* background-color: #f4f4fd; */
   padding: 120px 0 120px;
 }
 
@@ -269,11 +268,12 @@ img {
 
 .members {
   background-color: #FFFFFF;
-  border-radius: 0 0 4p 4px;
+  /* border-radius: 0 0 4p 4px; */
 }
 
 .employee {
   padding: 32px 0 32px;
+  border-radius: 0 0 4px 4px;
 }
 
 .member-name {
@@ -284,6 +284,8 @@ img {
   color: var(--navy-blue);
   text-align: center;
   margin-bottom: 8px;
+  border-radius: 0 0 4px 4px;
+  
 }
 
 .member-title {
