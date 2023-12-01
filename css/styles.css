@@ -257,10 +257,21 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0 120px;
+}
+
+.team-members {
+  display: flex;
+  gap: 24px;
 }
 
 .members {
   background-color: #FFFFFF;
+  border-radius: 0 0 4p 4px;
+}
+
+.employee {
+  padding: 32px 0 32px;
 }
 
 .member-name {
@@ -269,6 +280,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .member-title {
@@ -276,6 +289,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  text-align: center;
 }
 
 /* Portfolio Main */
