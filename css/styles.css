@@ -221,10 +221,14 @@ img {
   clip-path: inset(100%);
   height: 1px;
   overflow: hidden;
+  outline: 0;
+  outline-offset: 0;
   position: absolute;
   white-space: nowrap;
   width: 1px;
-
+  margin: -1px;
+  border: 0;
+  padding: 0;
   
  }
 
