@@ -192,14 +192,14 @@ img {
 .features-item {
   flex-basis: calc((100% - 72px) / 4);
 }
-
+/* 
 .features-item:last-child {
   margin-right: 0;
 }
 
 .features-item .features-item-header {
   margin-bottom: 8px;
-}
+} */
 
 .features-item-header {
   font-weight: 500;
