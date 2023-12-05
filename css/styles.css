@@ -21,6 +21,8 @@ body {
 
 .link {
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .list {
