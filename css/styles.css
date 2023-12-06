@@ -189,12 +189,11 @@ img {
 .features {
   display: flex;
   gap: 24px;
-  margin: 0;
-  padding: 0;
 }
 
 .features-item {
-  flex-basis: calc((100%- 72px)/4);
+  flex-basis: calc((100%-72px)/4);
+  padding: 0;
 }
 
 /* .features-item:last-child {
