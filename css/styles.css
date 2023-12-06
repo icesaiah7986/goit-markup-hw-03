@@ -150,6 +150,7 @@ img {
 .hero-image {
   background-color: var(--navy-blue);
   padding: 188px 0 188px;
+  
 }
 
 .main-page-banner {
@@ -192,13 +193,10 @@ img {
 }
 
 .features-item {
-  flex-basis: calc((100%-72px)/4);
+  width: calc((100%-72px)/4);
   padding: 0;
 }
 
-/* .features-item:last-child {
-  margin-right: 0;
-} */
 
 .features-item .features-item-header {
   margin-bottom: 8px;
@@ -253,6 +251,10 @@ img {
 .we-do {
   display: flex;
   gap: 24px;
+}
+
+.we-do-item {
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 /* Fourth Section - Our Team */
