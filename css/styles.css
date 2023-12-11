@@ -155,8 +155,7 @@ img {
 
 .hero-image {
   background-color: var(--navy-blue);
-  padding: 188px 0;
-  
+  padding: 188px 0;  
 }
 
 .main-page-banner {
@@ -167,6 +166,7 @@ img {
   color: #FFFFFF;
   max-width: 496px;
   margin: auto;
+  margin-bottom: 48px;
 }
 
 .hero-image .button {
