@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --iris: #4D5AE5;
   --ocean: #404bbf;  
@@ -45,20 +50,19 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
 }
 
 /* Header Section */
 
 .main-header-container {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
- }
+  justify-content: space-between;
+}
 
 .web-logo {
   color: var(--iris);
@@ -92,6 +96,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  text-decoration: none;
+  padding: 24px 0;
 } 
  
 .nav-menu-item .link:hover .link:focus {
@@ -149,7 +155,7 @@ img {
 
 .hero-image {
   background-color: var(--navy-blue);
-  padding: 188px 0 188px;
+  padding: 188px 0;
   
 }
 
@@ -160,6 +166,7 @@ img {
   letter-spacing: 0.02em;
   color: #FFFFFF;
   max-width: 496px;
+  margin: auto;
 }
 
 .hero-image .button {
@@ -170,6 +177,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: auto;
   
   }
 
@@ -206,7 +214,8 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue)
+  color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .features-item-content {
@@ -260,7 +269,7 @@ img {
 
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 
 .team-members {
@@ -270,15 +279,12 @@ img {
 
 .members {
   background-color: #FFFFFF;
-  flex-basis: calc((100%-72px)/4);
-  border-radius: 0 0 4px 4px;
-  
+  flex-basis: calc((100% - 72px ) / 4);
+  border-radius: 0 0 4px 4px;  
 }
 
 .employee {
   padding: 32px 0 32px;
-  border-radius: 0 0 4px 4px;
-  
 }
 
 .member-name {
@@ -289,7 +295,7 @@ img {
   color: var(--navy-blue);
   text-align: center;
   margin-bottom: 8px;
-  border-radius: 0 0 4px 4px;
+  /* border-radius: 0 0 4px 4px; */
   
 }
 
@@ -317,7 +323,7 @@ img {
 .filters .button {
   color: var(--iris);
   background-color: var(--cloud);
-  padding: 12px 24px 12px;
+  padding: 12px 24px;
   border: 1px solid var(--button);
   border-radius: 4px;
 
@@ -334,15 +340,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;
-  
+  row-gap: 48px; 
+}
+
+.services-item {
+  flex-basis: calc((100% - 48px) / 9);
 }
 
 .project {
   padding: 32px 16px;
-  border: 1px;
-  border-style: solid;
-  border-color: #e7e9fc;
+  border: 1px solid var(--cornflower);
   border-top: none;
 }
 
